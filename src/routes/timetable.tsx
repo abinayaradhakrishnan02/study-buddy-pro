@@ -16,7 +16,7 @@ export const Route = createFileRoute("/timetable")({
       { property: "og:description", content: "Daily and weekly study schedule for every subject." },
     ],
   }),
-  component: Timetable;
+  component: Timetable,
 });
 
 function Timetable() {
